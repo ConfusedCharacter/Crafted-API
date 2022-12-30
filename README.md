@@ -13,11 +13,11 @@
 Note: You Can check DOE-api.php
 
 Login (**Required**)
-```http
+```
   Host aqms.doe.ir
 ```
 
-```http
+```
   POST /Service/v1/login/
 ```
 
@@ -32,17 +32,17 @@ Getting Data:
 
 Region
 
-```http
+```
   GET /Service/api/v1/Region/Get/?StateId=2
 ```
 Station
 
-```http
+```
   GET /Service/api/v2/Station/GetByStateId/?StateId=2
 ```
 
 AQI
-```http
+```
   GET /Service/api/v2/AQI/Get/?StateId=2
 ```
 
@@ -52,22 +52,22 @@ AQI
 ### API Reference
 
 Header (**Required**)
-```python3
+```
   {"x-device-token": "585240a9-2cbc-4c1f-98fe-e7b6a91782cf" }
 ```
 
-```http
+```
   Host data.arzdigital.com
 ```
 
 Tether API
-```http
+```
   GET /app/market-data/9
 ```
 ![l](https://raw.githubusercontent.com/ConfusedCharacter/Crafted-Api-s-/main/screenshot/1.jpg)
 
 Market API
-```http
+```
   GET /app/update-price?sort=rank&page=1
 ```
 ![l](https://raw.githubusercontent.com/ConfusedCharacter/Crafted-Api-s-/main/screenshot/2.jpg)
