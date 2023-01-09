@@ -53,7 +53,7 @@ AQI
 
 Header (**Required**)
 ```
-  {"x-device-token": "585240a9-2cbc-4c1f-98fe-e7b6a91782cf" }
+  x-device-token: 585240a9-2cbc-4c1f-98fe-e7b6a91782cf
 ```
 
 ```
